@@ -243,3 +243,14 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+/*  new */
+
+.navbar-brand {
+  height: 80px;
+}
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #2e97bd 0px, #2e97bd 100%);
+    background-color: #2e97bd;
+    border-color: #2e97bd;
+}
