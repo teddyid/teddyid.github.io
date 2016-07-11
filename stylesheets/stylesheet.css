@@ -271,3 +271,7 @@ a {
   padding-bottom: 30px;
   padding-top: 30px;
 }
+.page-header {
+  background-color: #32a3cb;
+  background-image: linear-gradient(120deg, #32a3cb, #32a3cb);
+}
