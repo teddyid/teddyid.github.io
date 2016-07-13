@@ -287,3 +287,8 @@ a {
   margin-bottom: 0;
   padding-top: 100px;
 }
+#homepage-features .hf-block i {
+  float: left;
+  font-size: 40px;
+  margin: 0 0 20px;
+}
