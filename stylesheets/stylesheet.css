@@ -329,16 +329,6 @@ a {
           float: none; } }
 #homepage-features a:hover {
 text-decoration: none;}
-.widget > ul > li::before {
-  bottom: 0;
-  color: #6d6d6d;
-  content: "";
-  font-family: FontAwesome;
-  font-size: 100%;
-  left: 0;
-  position: absolute;
-  top: 2px;
-}
 .widget > ul > li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   margin-bottom: 8px;
@@ -346,4 +336,14 @@ text-decoration: none;}
 }
 .widget > ul {
   list-style: outside none none;
+}
+.widget > ul > li::before {
+  bottom: 0;
+  color: #6d6d6d;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 100%;
+  left: -10px;
+  position: relative;
+  top: 0;
 }
