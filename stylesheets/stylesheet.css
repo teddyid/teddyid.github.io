@@ -329,3 +329,21 @@ a {
           float: none; } }
 #homepage-features a:hover {
 text-decoration: none;}
+.hkb_widget_articles > ul > li::before {
+  bottom: 0;
+  color: #6d6d6d;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 100%;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+.widget > ul > li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+.widget > ul {
+  list-style: outside none none;
+}
