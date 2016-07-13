@@ -329,7 +329,7 @@ a {
           float: none; } }
 #homepage-features a:hover {
 text-decoration: none;}
-.hkb_widget_articles > ul > li::before {
+.widget > ul > li::before {
   bottom: 0;
   color: #6d6d6d;
   content: "";
