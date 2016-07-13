@@ -394,3 +394,6 @@ text-decoration: none;}
   color: #8c8c8c;
   text-decoration: none;
 }
+.blurb h1 {
+  margin-top: 50px;
+}
