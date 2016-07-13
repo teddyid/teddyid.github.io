@@ -371,3 +371,27 @@ text-decoration: none;}
 .jumbotron {
   background-color: #f5f8fa;
 }
+#page-header-breadcrumbs {
+  background: #f5f8fa none repeat scroll 0 0;
+  display: none;
+  padding: 10px 0;
+}
+.hkb-breadcrumbs {
+  font-size: 12px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.hkb-breadcrumbs li::after {
+  color: #8c8c8c;
+  content: "/";
+  margin: 0 6px;
+}
+.hkb-breadcrumbs li {
+  display: inline-block;
+  margin: 0;
+}
+.hkb-breadcrumbs a, .hkb-breadcrumbs a:visited, .hkb-breadcrumbs a:hover {
+  color: #8c8c8c;
+  text-decoration: none;
+}
