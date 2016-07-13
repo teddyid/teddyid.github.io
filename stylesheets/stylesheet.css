@@ -308,3 +308,22 @@ a {
   line-height: 20px;
   margin: 0;
 }
+#homepage-features .hf-block:hover {
+      background: #434345;
+      -moz-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      -webkit-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+      #homepage-features .hf-block:hover i,
+      #homepage-features .hf-block:hover h4 {
+        color: #fff; }
+      #homepage-features .hf-block:hover h5 {
+        color: rgba(255, 255, 255, 0.8); }
+    #homepage-features .hf-block i {
+      float: left;
+      font-size: 40px;
+      margin: 0 0 20px; }
+      @media screen and (min-width: 620px) and (max-width: 770px) {
+        #homepage-features .hf-block i {
+          float: none; } }
