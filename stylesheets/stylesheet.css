@@ -297,10 +297,14 @@ a {
   text-align: center;
 }
 #homepage-features .hf-block h4 {
-    font-size: 22px;
-    margin: 0 0 10px;
-    color: #1a1a1a;
+  color: #1a1a1a;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #1a1a1a;
+#homepage-features .hf-block h5 {
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
 }
