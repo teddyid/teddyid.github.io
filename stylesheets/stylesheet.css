@@ -365,3 +365,6 @@ text-decoration: none;}
   font-size: 19px;
   font-weight: 400;
 }
+.col-lg-4.widget {
+  margin-bottom: 30px;
+}
