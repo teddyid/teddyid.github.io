@@ -296,3 +296,10 @@ a {
   padding: 25px;
   text-align: center;
 }
+#homepage-features .hf-block h4 {
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+}
