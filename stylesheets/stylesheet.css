@@ -283,3 +283,6 @@ a {
   font-size: 2rem;
   font-weight: 400;
 }
+.page-header {
+  margin-bottom: 0;
+}
