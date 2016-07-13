@@ -50,9 +50,17 @@
     </section>
 
 
-     
+<section class="clearfix" id="page-header-breadcrumbs">
+	<div class="ht-container">
+		<ol itemtype="http://schema.org/BreadcrumbList" itemscope="" class="hkb-breadcrumbs">
+			<li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement"> <a title="Home" href="http://demo.herothemes.com/helpguru" itemprop="item"> <span itemprop="name">Главная</span> </a><meta content="1" itemprop="position"></li>
+			<li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement"> <a title="Knowledge Base" href="http://demo.herothemes.com/helpguru/knowledge-base/" itemprop="item"> <span itemprop="name">База знаний</span> </a><meta content="2" itemprop="position"></li>
+			<li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement"> <a title="View all posts in Getting Started" href="http://demo.herothemes.com/helpguru/article-categories/getting-started/" itemprop="item"> <span itemprop="name">{{ page.title }}</span> </a><meta content="3" itemprop="position"></li>
+		</ol>
+	</div> 
+</section>     
 <div class="blurb container">
-	<h1>Hi there, I'm Hank Quinlan!{{ page.title }}</h1>
+	<h1>{{ page.title }}</h1>
 	{{ content }}
 </div><!-- /.blurb -->
       <footer class="site-footer">
