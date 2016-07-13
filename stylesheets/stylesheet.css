@@ -360,3 +360,8 @@ text-decoration: none;}
   padding-left: 29px;
   padding-bottom: 10px;
 }
+.widget-title > span {
+  color: #999;
+  font-size: 19px;
+  font-weight: 400;
+}
