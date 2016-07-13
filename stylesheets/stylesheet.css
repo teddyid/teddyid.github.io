@@ -327,3 +327,5 @@ a {
       @media screen and (min-width: 620px) and (max-width: 770px) {
         #homepage-features .hf-block i {
           float: none; } }
+#homepage-features a:hover {
+text-decoration: none;}
