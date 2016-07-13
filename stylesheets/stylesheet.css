@@ -347,3 +347,9 @@ text-decoration: none;}
   position: relative;
   top: 0;
 }
+.hkb-widget__entry-title {
+  color: #333 !important;
+  display: block;
+  font-size: 14px;
+  margin: 0 0 4px;
+}
